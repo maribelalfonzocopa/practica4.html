@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <nav class="menu">
+        <h1 class="logo">Mi Web</h1>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="inicio" class="banner">
+    <div class="banner-texto">
+        <h2>Bienvenido</h2>
+        <p>Sitio web profesional en HTML y CSS</p>
+    </div>
+</section>
+
+<section id="servicios" class="seccion">
+    <h2>Servicios</h2>
+    <div class="contenedor">
+        <div class="card">
+            <h3>Diseño Web</h3>
+            <p>Páginas modernas y responsive</p>
+        </div>
+        <div class="card">
+            <h3>Desarrollo</h3>
+            <p>Aplicaciones funcionales</p>
+        </div>
+        <div class="card">
+            <h3>Soporte</h3>
+            <p>Asistencia técnica</p>
+        </div>
+    </div>
+</section>
+
+<section id="galeria" class="seccion">
+    <h2>Galería</h2>
+    <div class="galeria">
+        <img src="https://picsum.photos/300/200?1">
+        <img src="https://picsum.photos/300/200?2">
+        <img src="https://picsum.photos/300/200?3">
+        <img src="https://picsum.photos/300/200?4">
+    </div>
+</section>
+
+<section id="contacto" class="seccion">
+    <h2>Contacto</h2>
+
+    <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <input type="text" placeholder="Dirección" required>
+        <textarea placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div class="resultado">
+        <p>Datos enviados correctamente (simulado)</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Mi Sitio Web</p>
+</footer>
+
+</body>
+</html>
